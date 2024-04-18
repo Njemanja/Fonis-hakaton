@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #928490;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div
+        style="display: flex; flex-direction: row; justify-content: space-around;  background-color: #433E49  ; padding: 20px; color: lightblue;">
+        <a href="/homepage">Home</a>
+        <a href="/profile">Profile</a>
+        <a href="/messages">Chats</a>
+        <a href="/connestions">Connect</a>
+
+        <a href="/about">About</a>
+        <a href="#" (click)="logout()">Logout</a>
+
+    </div>
+    <div class="main-container" style="display: flex; justify-content: center;">
+        <div style="margin-top: 100px; display: flex; flex-direction: column; gap: 30px; width: 20%;">
+            <button (click)="game()" class="button">Basic words and phrases</button>
+            <button (click)="kviz()" class="button">Trivia quiz</button>
+        </div>
+    </div>
+
+    <footer
+        style="background-color: #CBD0D8; color: #333D51  ; text-align: center; padding: 10px;  width: 100%; margin-top: 500px; padding-bottom: 20px;">
+        <p><b>Email</b>: bridgetalk&#64;gmail.com</p>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

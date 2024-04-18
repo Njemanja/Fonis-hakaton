@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2f8e1;
+    margin: 0;
+}
+
+.header {
+    font-family: Monotype Corsiva, Times, Serif;
+    background-color: #CBD0D8 ;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+    font-size: 90px;
+}
+
+.login-container {
+    text-align: center;
+    padding: 40px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.message-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+    font-size: large;
+    color: red;
+}
+
+
+.button {
+    border: none;
+    background-color: lightblue; 
+    color: #433E49 ; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.button:hover {
+    background-color: #433E49;
+    color: lightblue;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+a{
+    color: #433E49;
+}

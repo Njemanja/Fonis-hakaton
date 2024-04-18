@@ -1,0 +1,159 @@
+a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 800px;
+  /*margin: 0 auto;*/
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.game-title {
+  text-align: center;
+  color: rgb(44, 16, 16);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.question-container {
+  font-size: 18px;
+  /*margin-bottom: 2px;*/
+  resize: none;
+  background-color: #433E49;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 600px;
+  /*margin: 0 auto;*/
+  text-align: justify;
+  color: white;
+  border-radius: 30px;
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button-row button {
+  width: 350px;
+  height: 50px;
+  margin: 0 5px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #928490af;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.button-row button:hover {
+  background-color: #3276b1;
+}
+
+.button-row button:active {
+  background-color: #135392;
+}
+
+.timpoints {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.timer,
+.points {
+  margin-right: 20px;
+  font-size: 24px;
+  color: black;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  /*border-radius: 20px;*/
+}
+
+.timer {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.points {
+  background-color: rgba(47, 255, 47, 0.658);
+  ;
+  border-radius: 20px;
+}
+
+
+
+
+#true-answer {
+  background-color: rgba(47, 255, 47, 0.658);
+}
+
+#wrong-answer {
+  background-color: rgb(207, 71, 71);
+}
+
+#dalje-btn {
+  width: 150px;
+  height: 50px;
+  /*margin: 0 5px;*/
+  margin-top: 20px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #48464b;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+#dalje-btn:hover {
+  background-color: white;
+  color: #433E49;
+}
+
+#dalje-btn:active {
+  background-color: #433E49;
+}
+
+span {
+  font-size: 20px;
+}
+
+.question-text {
+  text-align: center;
+
+}

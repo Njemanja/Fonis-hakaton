@@ -1,0 +1,306 @@
+[{
+  "_id": {
+    "$oid": "660804ddc12f6a2e3b92536b"
+  },
+  "id": 1,
+  "text": "Koja zemlja ima najviše piramida?",
+  "answer1": "Egipat",
+  "answer2": "Meksiko",
+  "answer3": "Peru",
+  "answer4": "Sudan",
+  "correctAnswer": 1,
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "660804ddc12f6a2e3b92536c"
+  },
+  "id": 2,
+  "text": "Koji grad je poznat po Kineskom zidu?",
+  "answer1": "Peking",
+  "answer2": "Shanghai",
+  "answer3": "Xi'an",
+  "answer4": "Guangzhou",
+  "correctAnswer": 1,
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "660804ddc12f6a2e3b92536d"
+  },
+  "id": 3,
+  "text": "Koji je glavni grad Italije?",
+  "answer1": "Milano",
+  "answer2": "Rim",
+  "answer3": "Firenca",
+  "answer4": "Venecija",
+  "correctAnswer": 2,
+  "city": "Rome",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "660804ddc12f6a2e3b92536e"
+  },
+  "id": 4,
+  "text": "Koji grad se smatra 'Gradom svetlosti'?",
+  "answer1": "Pariz",
+  "answer2": "London",
+  "answer3": "Njujork",
+  "answer4": "Berlin",
+  "correctAnswer": 1,
+  "city": "Paris",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "66083e39c12f6a2e3b925370"
+  },
+  "id": 5,
+  "text": "Which historical fortress is located at the confluence of the Sava and Danube rivers in Belgrade?",
+  "answer1": "Kalemegdan",
+  "answer2": "Belgrade Zoo",
+  "answer3": "Ada Ciganlija",
+  "answer4": "Nikola Tesla Museum",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "66083e39c12f6a2e3b925371"
+  },
+  "id": 6,
+  "text": "What is the name of the famous street in Belgrade known for its vibrant nightlife, cafes, and restaurants?",
+  "answer1": "Knez Mihailova Street",
+  "answer2": "Galery street",
+  "answer3": "Dunav Promenade",
+  "answer4": "Strahinjića Bana",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "66083e39c12f6a2e3b925372"
+  },
+  "id": 7,
+  "text": "Which historical event led to the destruction of the Belgrade Fortress in the 17th century?",
+  "answer1": "World War I",
+  "answer2": "Ottoman conquest",
+  "answer3": "Great Turkish War",
+  "answer4": "Napoleonic Wars",
+  "correctAnswer": 3,
+  "city": "Belgrade",
+  "type": "h"
+},
+{
+  "_id": {
+    "$oid": "66083e39c12f6a2e3b925373"
+  },
+  "id": 8,
+  "text": "What is the name of the famous bridge that connects the Old Town of Belgrade with the New Belgrade?",
+  "answer1": "Branko's Bridge",
+  "answer2": "Tesla's Bridge",
+  "answer3": "Happy Bridge",
+  "answer4": "Pupin Bridge",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "66087704c12f6a2e3b925378"
+  },
+  "id": 13,
+  "text": "During which historical period was Belgrade under Ottoman rule?",
+  "answer1": "Medieval period",
+  "answer2": "Byzantine period",
+  "answer3": "Renaissance",
+  "answer4": "Ottoman period",
+  "correctAnswer": 4,
+  "city": "Belgrade",
+  "type": "h"
+},
+{
+  "_id": {
+    "$oid": "66087704c12f6a2e3b925379"
+  },
+  "id": 14,
+  "text": "What was the name of the major battle fought near Belgrade in 1521, resulting in the city's capture by the Ottoman Empire?",
+  "answer1": "Battle of Kosovo",
+  "answer2": "Battle of Maritsa",
+  "answer3": "First Battle of Belgrade",
+  "answer4": "Siege of Belgrade",
+  "correctAnswer": 4,
+  "city": "Belgrade",
+  "type": "h"
+},
+{
+  "_id": {
+    "$oid": "66087704c12f6a2e3b92537a"
+  },
+  "id": 15,
+  "text": "Which Serbian ruler liberated Belgrade from Ottoman rule in the 19th century?",
+  "answer1": "Prince Lazar",
+  "answer2": "Prince Miloš",
+  "answer3": "Prince Mihailo",
+  "answer4": "Prince Alexander",
+  "correctAnswer": 3,
+  "city": "Belgrade",
+  "type": "h"
+},
+{
+  "_id": {
+    "$oid": "66087704c12f6a2e3b92537b"
+  },
+  "id": 16,
+  "text": "In which year did Belgrade become the capital of Yugoslavia?",
+  "answer1": "1918",
+  "answer2": "1929",
+  "answer3": "1945",
+  "answer4": "2003",
+  "correctAnswer": 2,
+  "city": "Belgrade",
+  "type": "h"
+},
+{
+  "_id": {
+    "$oid": "66087839c12f6a2e3b92537d"
+  },
+  "id": 17,
+  "text": "Ptica",
+  "answer1": "Bird",
+  "answer2": "Dog",
+  "answer3": "Cat",
+  "answer4": "Fish",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087839c12f6a2e3b92537e"
+  },
+  "id": 18,
+  "text": "Sunce",
+  "answer1": "Sun",
+  "answer2": "Moon",
+  "answer3": "Star",
+  "answer4": "Cloud",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087839c12f6a2e3b92537f"
+  },
+  "id": 19,
+  "text": "Reka",
+  "answer1": "River",
+  "answer2": "Mountain",
+  "answer3": "Lake",
+  "answer4": "Forest",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087839c12f6a2e3b925380"
+  },
+  "id": 20,
+  "text": "Drvo",
+  "answer1": "Tree",
+  "answer2": "Flower",
+  "answer3": "Grass",
+  "answer4": "Rock",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b925385"
+  },
+  "id": 21,
+  "text": "Restoran",
+  "answer1": "Restaurant",
+  "answer2": "Hospital",
+  "answer3": "School",
+  "answer4": "Park",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b925386"
+  },
+  "id": 22,
+  "text": "Kafić",
+  "answer1": "Cafe",
+  "answer2": "Library",
+  "answer3": "Museum",
+  "answer4": "Market",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b925387"
+  },
+  "id": 23,
+  "text": "Bioskop",
+  "answer1": "Cinema",
+  "answer2": "Gym",
+  "answer3": "Pool",
+  "answer4": "Stadium",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b925388"
+  },
+  "id": 24,
+  "text": "Pravo",
+  "answer1": "Straight",
+  "answer2": "Left",
+  "answer3": "Right",
+  "answer4": "Up",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "w"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b925389"
+  },
+  "id": 25,
+  "text": "Levo",
+  "answer1": "Left",
+  "answer2": "Straight",
+  "answer3": "Right",
+  "answer4": "Down",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "e"
+},
+{
+  "_id": {
+    "$oid": "66087909c12f6a2e3b92538a"
+  },
+  "id": 26,
+  "text": "Desno",
+  "answer1": "Right",
+  "answer2": "Straight",
+  "answer3": "Left",
+  "answer4": "Up",
+  "correctAnswer": 1,
+  "city": "Belgrade",
+  "type": "e"
+}]

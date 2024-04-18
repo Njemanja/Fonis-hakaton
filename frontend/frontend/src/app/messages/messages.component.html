@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body style="font-family: Arial, sans-serif;">
+
+    <header>
+
+        <div
+            style="display: flex; flex-direction: row; justify-content: space-around;  background-color: #433E49  ; padding: 20px; color: lightblue;">
+            <a href="/homepage">Home</a>
+            <a href="/profile">Profile</a>
+            <a href="/messages">Chats</a>
+            <a href="/connestions">Connect</a>
+
+            <a href="/about">About</a>
+            <a href="#" (click)="logout()">Logout</a>
+
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-lg-12"
+                style="max-height: 150px;overflow-y: auto;text-align: center;background-color: lightblue">
+                <table width="100%">
+                    <tr *ngFor="let p of poruke, let i=index">
+                        <td><button (click)="otvori(i)" id="{{i}}">
+
+                                {{ (p.korisnickoIme1 !== korisnickoIme) ? p.korisnickoIme1 : p.korisnickoIme2 }}
+
+                            </button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 " id="zatvori_{{i}}" *ngFor="let p of poruke; let i = index "
+                style="
+               background-color: lightblue; display: none ;align-content: center;border: solid black; float: left; overflow:auto; height: 250px; margin: 20px; position: relative;">
+                <div style="text-align: center; background-color: #433E49; color: white;">
+
+                    {{p.korisnickoIme1}}
+                    <a style="float: right; margin-right: 5px; color: black; font-weight: bolder;"
+                        (click)="zatvori(i)">X</a>
+
+                </div>
+                <table *ngFor="let p1 of p.poruke " [ngClass]=" (p1.from == p.korisnickoIme1) ? 'right' : 'left'">
+
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td *ngIf=" p1.from == p.korisnickoIme2"><img [src]="p.slika2" height="45px"
+                                            width="45px" style=" border-radius: 50%;"></td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <div *ngIf=" p1.from == p.korisnickoIme2">
+                                                        <b>{{p.korisnickoIme2}}</b>
+                                                    </div>
+                                                    <div *ngIf=" p1.from == p.korisnickoIme1">
+                                                        <b>{{p.korisnickoIme1}}</b>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr style="word-break: break-word; ">
+                                                <td class="jednaPoruka">{{p1.poruka}}</td>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td *ngIf=" p1.from == p.korisnickoIme1"><img [src]="p.slika1" height="45px"
+                                            width="45px" style=" border-radius: 50%;"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-left:0;margin-right:0; border-top: solid black; overflow: hidden; " width="100%">
+                    <tr>
+                        <td>
+                            <input [(ngModel)]="dataNew[i]" name="key_{{i}}" type="text" placeholder="Message">
+                        </td>
+                        <td align="right"><button
+                                (click)="posaljiPoruku(i, p.korisnickoIme1, p.korisnickoIme2)">Send</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <footer class="fixed-bottom"
+        style="background-color: #433E49 ; color: white   ; text-align: center; padding: 10px;  width: 100%; margin-top: 80px;">
+        <p><b>Email</b>: bridgetalk&#64;gmail.com</p>
+    </footer>
+</body>
+
+</html>

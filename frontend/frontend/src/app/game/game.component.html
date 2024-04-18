@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="background">
+          <img src="assets/background3.png" alt="Background">
+        </div>
+      </div>
+    </div>
+  
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="game" *ngIf="!gameOver">
+          <div class="timer">{{timer}}</div>
+          <div class="score">Score: {{ score }}</div>
+          <div class="Word">{{ game_word.question_word }}</div>
+          <div class="lanes">
+            <div class="lane" *ngFor="let lane of lanes; let i = index">
+              <div class="answer" *ngFor="let answer of lane.answers" [style.top.px]="answer.position * 65">
+                {{ answer.text }}
+              </div>
+              <img class="player" [id]="playercolor" [src]="'assets/traveller.png'" *ngIf="player === i">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="game-over" *ngIf="gameOver">
+          <div class="final-score">Score: {{ score }}</div>
+          <div class="buttons">
+            <button id="buttonretryhome" class="btn btn-light mr-3" (click)="goToHomepage()">Homepage</button>
+            <button id="buttonretryhome" class="btn btn-light" (click)="restartGame()">Retry</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

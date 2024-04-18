@@ -1,0 +1,54 @@
+
+
+.button-container {
+    display: flex; /* Koristimo flexbox */
+    flex-direction: column; /* Podešavamo vertikalni smer */
+    gap: 10px; /* Razmak između dugmadi */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #CBD0D8;
+    margin: 0;
+  }
+  
+  
+  .login-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .button {
+    border: none;
+    background-color: lightblue; 
+    color: #433E49 ; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .button:hover {
+    background-color: #433E49;
+    color: lightblue;
+  }
+  
+  a:hover{
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  

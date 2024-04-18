@@ -1,0 +1,140 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .game {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-top: 50px;
+  }
+  
+  .score {
+    width: 35%;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 32%;
+    margin-top:5px;
+    font-size: 16px;
+    padding: 5px;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    background-color: rgba(6, 165, 59, 0.623);/*rgb(214, 80, 231, 0.5);*/
+    z-index:2;
+  }
+  
+  .Word {
+    width: 35%;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 32%;
+    margin-top:5px;
+    font-size: 16px;
+    padding: 5px;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    background-color: rgba(6, 165, 59, 0.623);/*rgb(214, 80, 231, 0.5);*/
+    z-index:2;
+  }
+  
+  .lanes {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .lane {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .answer {
+    position: absolute;
+    width: 35%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 27px;
+    padding: 5px;
+    color:white;
+    background-color: rgba(173, 216, 230, 0.493);/*rgb(214, 80, 231, 0.5);*/
+    z-index:2;
+  }
+  
+  .player {
+    position: absolute;
+    bottom: 20%;
+    width: 50vh;
+    height: 25vh;
+    z-index:1;
+  }
+  
+  #greenplayercolor {
+    filter: hue-rotate(40deg);
+  }
+  
+  #redplayercolor {
+    filter: hue-rotate(0deg) saturate(4);
+  }
+  
+  .timer {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .game-over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+  
+  .final-score {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #buttonretryhome{
+    /*position: absolute;*/
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top:20px;
+    padding: 20px;
+    color:white;
+    margin: 20px;
+    background-color: rgba(173, 216, 230, 0.493);/* rgb(214, 80, 231, 0.5);*/
+    z-index:2;
+  }
+
+  .buttons{
+    display: flex;
+
+  }
